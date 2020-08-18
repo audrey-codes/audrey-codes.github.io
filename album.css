@@ -1,5 +1,5 @@
 /* ------------------------------
-    Bootstrap Styles - Album
+    Bootstrap & Custom Styles
 ------------------------------ */
 
 .navbar {
@@ -63,3 +63,13 @@ footer p {
     Base Styles
 ------------------------------ */
 
+.card-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: #002a54;
+}
+
+.card-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
