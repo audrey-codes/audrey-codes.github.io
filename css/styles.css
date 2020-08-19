@@ -131,3 +131,22 @@ footer p {
   margin-right: .75rem;
   margin-left: .75rem;
 }
+
+.resume {
+  background-color: #002040;
+}
+
+.col-lg-4 h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #fff;
+  font-size: 1.75rem;
+  letter-spacing: 1px;
+}
+
+.col-lg-4 p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #fff;
+}
