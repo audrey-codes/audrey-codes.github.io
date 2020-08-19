@@ -1,5 +1,6 @@
+
 /* ------------------------------
-    Bootstrap & Custom Styles
+    Bootstrap Styles - Album
 ------------------------------ */
 
 .navbar {
@@ -36,7 +37,7 @@
   font-family: 'Playfair Display', serif;
   font-weight: 800;
   color: #fff;
-  font-size: 3rem;
+  font-size: 5.25rem;
   letter-spacing: 2px;
 }
 
@@ -44,7 +45,8 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.75rem;
+  padding-top: 1.25rem;
 }
 
 .jumbotron .container {
@@ -61,7 +63,7 @@ footer p {
 }
 
 /* ------------------------------
-    Base Styles
+    Portfolio Projects Section
 ------------------------------ */
 
 .card-title {
@@ -73,4 +75,59 @@ footer p {
 .card-text {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
+}
+
+.btn-outline-secondary {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #002040;
+  border: 1px solid #3fa2a0;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #3fa2a0;
+  border: 1px solid #3fa2a0;
+}
+
+/* ------------------------------
+    About Section
+------------------------------ */
+
+.about {
+  background-color: rgba(63, 162, 160, 0.5);
+}
+
+.featurette-image {
+  border-radius: 0.3rem;
+}
+
+.featurette-heading {
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+  color: #002040;
+  font-size: 3.25rem;
+  letter-spacing: 1px;
+}
+
+.lead {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+}
+
+/* ------------------------------
+    Resume Section
+------------------------------ */
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
 }
