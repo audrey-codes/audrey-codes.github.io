@@ -94,7 +94,7 @@ footer p {
 ------------------------------ */
 
 .about {
-  background-color: rgba(63, 162, 160, 0.5);
+  background-color: rgba(63, 162, 160, 0.4);
 }
 
 .featurette-image {
@@ -124,24 +124,25 @@ footer p {
   margin-bottom: 1.5rem;
   text-align: center;
 }
-.marketing h2 {
-  font-weight: 400;
-}
-.marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
-}
 
 .resume {
   background-color: #002040;
 }
 
 .col-lg-4 h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+  color: #4dc4b0;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+.col-lg-4 h4 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   color: #fff;
-  font-size: 1.75rem;
-  letter-spacing: 1px;
+  font-size: 1.25rem;
+  letter-spacing: 0.05rem;
 }
 
 .col-lg-4 p {
@@ -149,4 +150,5 @@ footer p {
   font-weight: 400;
   font-size: 1rem;
   color: #fff;
+  margin-bottom: 0.25rem;
 }
