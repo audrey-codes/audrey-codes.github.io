@@ -63,7 +63,7 @@ footer p {
 }
 
 /* ------------------------------
-    Portfolio Projects Section
+    Dev Projects Section
 ------------------------------ */
 
 .card-title {
@@ -161,4 +161,44 @@ footer p {
 .applied-icon {
   margin-top: 0.75rem;
   margin-bottom: 1.25rem;
+}
+
+/* ------------------------------
+    Design Projects Section
+------------------------------ */
+
+a {
+  color: white;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.design-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 60%;
+  flex-wrap: wrap;
+}
+
+.item {
+  padding: 30px 30px;
+  align-self: center;
+}
+
+.lg-sub-html {
+  display: flex;
+  align-self: center;
+  margin: auto;
+  width: 600px;
+  font-size: 18px;
+  line-height: 1.6em;
 }
