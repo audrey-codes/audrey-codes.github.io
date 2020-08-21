@@ -1,2 +1,2 @@
-const $item = $('img');
-$item.addClass('item');
+// const $item = $('img');
+// $item.addClass('item');

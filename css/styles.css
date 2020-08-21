@@ -168,15 +168,16 @@ footer p {
 ------------------------------ */
 
 .design {
-  background-color: #3fa2a0;
+  background-color: #EDEFF0;
 }
 
 .design h2  {
   font-family: 'Playfair Display', serif;
   font-weight: 800;
-  color: #3fa2a0;
+  color: #002040;
   font-size: 2.75rem;
   letter-spacing: 2px;
+  margin-bottom: 1.5rem;
 }
 
 a {
@@ -192,16 +193,10 @@ ul {
   flex-wrap: wrap;
 }
 
-.design-container {
-  display: flex;
-  justify-content: space-around;
-  margin: auto;
-  flex-wrap: wrap;
-}
-
-.item {
-  padding: 25px 75px;
+.thumbnail {
+  margin: 25px 75px;
   align-self: center;
+  border-radius: 0.3rem;
 }
 
 .lg-sub-html {
