@@ -167,8 +167,20 @@ footer p {
     Design Projects Section
 ------------------------------ */
 
+.design {
+  background-color: #3fa2a0;
+}
+
+.design h2  {
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+  color: #3fa2a0;
+  font-size: 2.75rem;
+  letter-spacing: 2px;
+}
+
 a {
-  color: white;
+  color: #fff;
 }
 
 ul {
@@ -182,15 +194,13 @@ ul {
 
 .design-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
   margin: auto;
-  width: 60%;
   flex-wrap: wrap;
 }
 
 .item {
-  padding: 30px 30px;
+  padding: 25px 75px;
   align-self: center;
 }
 
