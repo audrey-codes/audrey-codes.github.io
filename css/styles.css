@@ -135,6 +135,7 @@ footer p {
   color: #4dc4b0;
   font-size: 2rem;
   letter-spacing: 1px;
+  margin-top: 0.5rem;
 }
 
 .col-lg-4 h4 {
@@ -151,4 +152,13 @@ footer p {
   font-size: 1rem;
   color: #fff;
   margin-bottom: 0.25rem;
+}
+
+.skills p {
+  margin-top: 0.45rem;
+}
+
+.applied-icon {
+  margin-top: 0.75rem;
+  margin-bottom: 1.25rem;
 }
