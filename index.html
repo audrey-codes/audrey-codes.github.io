@@ -39,30 +39,13 @@
 
   <body>
   <header>
-    <div class="collapse bg-dark" id="navbarHeader">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-8 col-md-7 py-4">
-            <h4 class="text-white">About</h4>
-            <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
-          </div>
-          <div class="col-sm-4 offset-md-1 py-4">
-            <h4 class="text-white">Contact</h4>
-            <ul class="list-unstyled">
-              <li><a href="#" class="text-white">Follow on Twitter</a></li>
-              <li><a href="#" class="text-white">Like on Facebook</a></li>
-              <li><a href="#" class="text-white">Email me</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="navbar navbar-dark shadow-sm">
-      <div class="container d-flex justify-content-between">
-        <a href="#" class="navbar-brand d-flex align-items-center">Audrey Bazyk</a>
-        <!-- Previous hamburger navigation went here -->
-      </div>
-    </div>
+    <nav class="nav navbar-expand-sm justify-content-center">
+      <a class="p-3 nav-text" href="#projects">Projects</a>
+      <a class="p-3 nav-text" href="#about">About</a>
+      <a class="p-3 nav-text" href="#resume">Resume</a>
+      <a class="p-3 nav-text" href="#design">Design</a>
+      <a class="p-3 nav-text" href="#">Social</a>
+    </nav>
 </header>
 
 <main role="main">
@@ -75,7 +58,7 @@
   </section>
 
   <div class="album py-5 bg-light">
-    <div class="container">
+    <div class="container" id="projects">
 
       <div class="row">
         <div class="col-md-4">
@@ -168,8 +151,8 @@
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Preview</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Code</button>
+                  <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Preview</button> -->
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Behance</button>
                 </div>
               </div>
             </div>
@@ -180,7 +163,7 @@
   </div>
 
   <div class="about py-5">
-    <div class="container">
+    <div class="container" id="about">
       <!-- About Section -->
       <div class="row featurette">
         <div class="col-md-7 order-md-2">
@@ -195,7 +178,7 @@
   </div>
 
   <div class="resume py-5">
-    <div class="container marketing">
+    <div class="container marketing" id="resume">
       <!-- Resume Section -->
           <div class="row">
             <div class="col-lg-4">
@@ -235,7 +218,7 @@
     </div><!-- /.container -->
   </div>
 
-  <div class="design py-5">
+  <div class="design py-5" id="design">
     <h2 class="text-center">Graphic Design</h2>
       <ul id="lightgallery" class="list">
         <li data-sub-html="I love hay bales. Took this snap on a drive through the countryside past some straw fields." data-src="images/01.jpg">
@@ -259,13 +242,6 @@
   </div>
 </main>
 
-<footer class="text-muted">
-  <div class="container">
-    <p class="float-right">
-      <a href="#">Back to top</a>
-    </p>
-  </div>
-</footer>
 
   <!-- Bootstrap Album: Dev Projects -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

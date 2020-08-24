@@ -1,18 +1,24 @@
 
 /* ------------------------------
-    Bootstrap Styles - Album
+    Navigation & Header
 ------------------------------ */
 
-.navbar {
+.nav {
   background-color: #002a54;
+  padding: 0.25rem;
 }
 
-.navbar-brand {
-  font-family: 'Playfair Display', serif;
-  font-weight: 400;
+.nav-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1rem;
   letter-spacing: 1px;
+}
+
+.nav a:hover {
+  text-decoration: none;
+  color: #a9ffd8;
 }
 
 .jumbotron {
@@ -42,8 +48,8 @@
 }
 
 .jumbotron h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
   color: #fff;
   font-size: 1.75rem;
   padding-top: 1.25rem;
@@ -63,7 +69,7 @@ footer p {
 }
 
 /* ------------------------------
-    Dev Projects Section
+    Dev Projects
 ------------------------------ */
 
 .card-title {
@@ -90,7 +96,7 @@ footer p {
 }
 
 /* ------------------------------
-    About Section
+    About
 ------------------------------ */
 
 .about {
@@ -117,7 +123,7 @@ footer p {
 }
 
 /* ------------------------------
-    Resume Section
+    Resume
 ------------------------------ */
 
 .marketing .col-lg-4 {
@@ -164,7 +170,7 @@ footer p {
 }
 
 /* ------------------------------
-    Design Projects Section
+    Design Projects
 ------------------------------ */
 
 .design {
@@ -176,7 +182,7 @@ footer p {
   font-weight: 800;
   color: #002040;
   font-size: 2.75rem;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   margin-bottom: 1.5rem;
 }
 
@@ -207,3 +213,7 @@ ul {
   font-size: 18px;
   line-height: 1.6em;
 }
+
+/* ------------------------------
+    Contact & Footer
+------------------------------ */
