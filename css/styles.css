@@ -84,15 +84,19 @@ footer p {
 }
 
 .btn-outline-secondary {
+  border: 1px solid #4dc4b0;
+}
+
+.btn-outline-secondary a {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   color: #002040;
-  border: 1px solid #3fa2a0;
+  text-decoration: none;
 }
 
 .btn-outline-secondary:hover {
-  background-color: #3fa2a0;
-  border: 1px solid #3fa2a0;
+  background-color: #4dc4b0;
+  border: 1px solid #4dc4b0;
 }
 
 /* ------------------------------
