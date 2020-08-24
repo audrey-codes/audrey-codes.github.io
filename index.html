@@ -246,20 +246,20 @@
   <div class="design py-5 bg-light" id="design">
     <h2 class="text-center">Graphic Design</h2>
       <ul id="lightgallery" class="list py-4">
-        <li data-sub-html="I love hay bales. Took this snap on a drive through the countryside past some straw fields." data-src="images/01.jpg">
-          <a href="images/01.jpg" title="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
+        <li data-src="images/fastenal-preview.jpg">
+          <a href="images/fastenal-preview.jpg">
             <img class="thumbnail shadow-sm" src="images/fastenal-thumbnail.png" alt="Fastenal">
           </a>
         </li>
 
-        <li data-sub-html="The lake was so calm today. We had a great view of the snow on the mountains from here." data-src="images/02.jpg">
-          <a href="images/02.jpg" title="The lake was so calm today. We had a great view of the snow on the mountains from here.">
+        <li data-src="images/modcloth-preview.jpg">
+          <a href="images/modcloth-preview.jpg">
             <img class="thumbnail shadow-sm" src="images/modcloth-thumbnail.png" alt="ModCloth">
           </a>
         </li>
 
-        <li data-sub-html="I hiked to the top of the mountain and got this picture of the canyon and trees below." data-src="images/03.jpg">
-          <a href="images/03.jpg" title="I hiked to the top of the mountain and got this picture of the canyon and trees below.">
+        <li data-src="images/wellness-preview.jpg">
+          <a href="images/wellness-preview.jpg">
             <img class="thumbnail shadow-sm" src="images/wellness-thumbnail.png" alt="3 Weeks to Wellness">
           </a>
         </li>
@@ -326,7 +326,6 @@
     </ul>
   </div>
   <!-- Footer Elements -->
-
 </footer>
 <!-- Footer -->
 
@@ -340,9 +339,10 @@
   <script src="js/jquery-3.5.1.min.js"></script>
   <script src="js/lightgallery.min.js"></script>
   <script>
-    $(document).ready(function() {
-        $("#lightgallery").lightGallery();
-    });
+    $('#lightgallery').lightGallery({
+      getCaptionFromTitleOrAlt: false,
+      download: false
+    }); 
   </script>
   <script src="js/main.js"></script>
 </html>
