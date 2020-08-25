@@ -43,29 +43,18 @@
   font-family: 'Playfair Display', serif;
   font-weight: 800;
   color: #fff;
-  font-size: 5.25rem;
   letter-spacing: 2px;
 }
 
-.jumbotron h2 {
+.jumbotron p {
   font-family: 'Playfair Display', serif;
   font-weight: 400;
   color: #fff;
-  font-size: 1.75rem;
   padding-top: 1.25rem;
 }
 
 .jumbotron .container {
   max-width: 40rem;
-}
-
-footer {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-footer p {
-  margin-bottom: .25rem;
 }
 
 /* ------------------------------
@@ -116,11 +105,10 @@ footer p {
   letter-spacing: 1px;
 }
 
-.lead {
+.bio {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 1.25rem;
-  letter-spacing: 1px;
+  font-weight: 500;
+  color: #404242;
 }
 
 /* ------------------------------
@@ -156,7 +144,6 @@ footer p {
 .col-lg-4 p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  font-size: 1rem;
   color: #fff;
   margin-bottom: 0.25rem;
 }
@@ -185,20 +172,10 @@ footer p {
 
 a {
   color: #fff;
-}
-
-ul {
-  list-style: none;
-  display: flex;
-  margin: auto;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  padding: 15px 0;
 }
 
 .thumbnail {
-  margin: 25px 75px;
-  align-self: center;
   border-radius: 0.3rem;
 }
 
@@ -209,6 +186,7 @@ ul {
   width: 600px;
   font-size: 18px;
   line-height: 1.6em;
+  flex-wrap: nowrap;
 }
 
 /* ------------------------------
@@ -216,5 +194,15 @@ ul {
 ------------------------------ */
 
 footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   background-color:  rgba(77, 196, 176, 0.6);
+}
+
+
+@media (min-width: 768px) {
+  .social-btn svg {
+    width: 50px;
+    height: 50px;
+  }
 }
